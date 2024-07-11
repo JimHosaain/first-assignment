@@ -32,6 +32,8 @@ nav ul{
     background-color: white;
     stroke: #0D1321;
     border: 1px solid #0D1321;
+    cursor: pointer;
+
     
 }
  
@@ -48,6 +50,7 @@ nav ul{
         display: flex;
         justify-content: center;
         align-items: center;
+        cursor: pointer;
        
 
 
@@ -117,6 +120,8 @@ nav ul{
     margin-top: 0px;
 }
 
+
+
 .banner-description{
     
     width: 852px;
@@ -129,7 +134,6 @@ nav ul{
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    opacity: o.5;
     line-height: 20px;
     text-align: center;
     opacity: 90%;
@@ -137,4 +141,50 @@ nav ul{
 }
 nav ul li{
     list-style: none;
+}
+
+.reason{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#0D1321;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.section-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 90%;
+}
+.secondary-bg{
+    /* Frame 13 */
+position: absolute;
+width: 1100px;
+height: 1395px;
+margin: 0 auto;
+left: 148px;
+right: 152px;
+top: 857px;
+bottom: 2993px;
+/* Auto layout */
+display: flex;
+
+justify-content: flex-start;
+align-items: center;
+
+
+border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.02);
+
 }
