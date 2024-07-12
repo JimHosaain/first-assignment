@@ -33,6 +33,7 @@ nav ul{
     stroke: #0D1321;
     border: 1px solid #0D1321;
     cursor: pointer;
+    text-decoration: none;
 
     
 }
@@ -51,10 +52,9 @@ nav ul{
         justify-content: center;
         align-items: center;
         cursor: pointer;
-       
+    }
 
 
-}
 
 .banner{
     display: flex;
@@ -80,7 +80,7 @@ nav ul{
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 150px 180px 0px 170px;
+            margin: 150px 150px 0px 255px;
 }
 
 .pic{
@@ -105,7 +105,7 @@ nav ul{
 
 .banner-title{
     position: static;
-    width: 998px;
+    width: 852px;
     height: 30px;
     display: flex;
     flex-direction: column;
@@ -114,7 +114,7 @@ nav ul{
     padding: 0px;
     color:#0D1321;
     font-family: Azeret Mono;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 800;
     text-align: center;
     margin-top: 0px;
@@ -145,9 +145,12 @@ nav ul li{
 
 .reason{
     display: flex;
-    justify-content: center;
+    
     border-radius: 10px;
     flex-direction: column;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 150px;
 }
 
 .section-title{
@@ -170,7 +173,7 @@ main{
     /* Frame 13 */
 position: absolute;
 width: 1100px;
-height: 1395px;
+height: 1350px;
 margin: 0 auto;
 left: 148px;
 right: 152px;
@@ -178,8 +181,9 @@ top: 857px;
 bottom: 2993px;
 /* Auto layout */
 display: flex;
+flex-direction: column;
 
-justify-content: flex-start;
+justify-content:center;
 align-items: center;
 
 
@@ -188,3 +192,121 @@ border-radius: 16px;
 background: rgba(13, 19, 33, 0.02);
 
 }
+.hero-section {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -100px;
+    margin-bottom: -75px;
+}
+
+.text-content {
+    
+    max-width: 850px;
+    height: 250px;
+    border-radius: 16px;
+    padding:20px;
+    order: 0;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 90%;
+    margin-bottom: 10px;
+    
+}
+.p-1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 90%;
+    margin-bottom: 10px;
+    max-width: 500px;
+    
+}
+
+    .learn-more-btn {
+        text-align:justify;
+        margin-top: 25px; 
+    }
+    
+    .learn-more-btn a {
+        font-weight: bold;
+        font-size: 17px;
+        color: #0D1321;
+        text-decoration: none; /* Remove the link underline */
+        background-color: white;
+        border: 1px solid #0D1321;
+        border-radius: 8px;
+        padding: 15px 21px;
+        display: inline-block;
+        cursor: pointer;
+    }
+.hero-section-2{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 48px;
+        margin-bottom: 100px;
+    }
+
+    .h1-2{
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+    }
+    .p-2{
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 14px;
+        font-weight: 400;
+        opacity: 90%;
+        margin-bottom: 10px;
+        max-width: 500px;
+    }
+    .learn-more-btn-2 {
+        text-align:justify;
+        margin-top: 25px; 
+        order: 1;
+    }
+    
+    .learn-more-btn-2 a {
+        font-weight: bold;
+        font-size: 17px;
+        color: #0D1321;
+        text-decoration: none; /* Remove the link underline */
+        background-color: white;
+        border: 1px solid #0D1321;
+        border-radius: 8px;
+        padding: 15px 21px;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .image {
+        flex: 1;
+    }
+
+    .text-content-2 {
+        flex: 2;
+        max-width: 850px;
+        height: 250px;
+        border-radius: 16px;
+        padding:20px;
+        order: 1;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    }
