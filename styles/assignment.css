@@ -430,7 +430,7 @@ height: 300px;
 }
 
 .banner-op {
-    background-image: url('/assets/handshake.jpg');
+    background-image: url('./assets/handshake.jpg');
     text-align: center;
     padding: 50px;
     display: flex;
