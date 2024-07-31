@@ -429,15 +429,19 @@ height: 300px;
     height: auto;
 }
 
+
+.third-bg{
+    
+}
 .banner-op {
-    background-image: url('./assets/handshake.jpg');
+    background-image: url('/assets/handshake.jpg');
     text-align: center;
     padding: 50px;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
     width: 1260px;
-    height: 415px;
+    height: 405px;
     justify-content: center;
     align-items: center;
    margin-left: 30px;
@@ -458,7 +462,9 @@ height: 300px;
     margin-top: -100px;
     margin-bottom: -50px;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    
     padding: 50px;
 }
 
@@ -466,6 +472,8 @@ height: 300px;
 .content-4 p {
     font-size: 1rem;
     color: white;
+    display: flex;
+    justify-content: center;
     margin-bottom: 1.5rem;
 }
 
